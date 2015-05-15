@@ -1,0 +1,34 @@
+﻿.common-button {
+  position: relative;
+  height: 30px;
+  text-align: center;
+  font-family: HelveticaNeueLTStd;
+  -webkit-tap-highlight-color: transparent;  
+}
+.button-text {
+  position: relative;
+  height: inherit;
+  width: inherit;
+  display: table-cell;
+  vertical-align: middle;
+}
+.remove-text-selection {
+  -moz-user-select: -moz-none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.down, .hover.down.active {
+}
+.hover.active {
+}
+.hide {
+  display: none;
+}
+.active {
+  opacity: 1;
+  cursor: pointer;
+}
+.disabled {
+  cursor: default;
+}

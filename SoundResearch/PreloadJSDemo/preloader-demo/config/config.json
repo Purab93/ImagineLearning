@@ -1,0 +1,46 @@
+{
+    "resources": {
+        "components": [
+        ],
+        "css": [
+            {
+                "isNextStepLoad": true,
+                "src": "demo.css"
+            }
+        ],
+        "isNewJsonType": true,
+        "js": [
+            {
+                "id": "demo-model",
+                "src":"models/demo-model.js"
+            },{
+                "id": "demo-view",
+                "src":"views/demo-view.js"
+            }
+        ],
+        "json": [
+        ],
+        "media": {
+            "image": [
+                {
+                    "forceLoad": false,
+                    "id": "overview-bg",
+                    "isNextStepLoad": false,
+                    "src": "overview-bg.jpg"
+                },
+                {
+                    "forceLoad": false,
+                    "id": "sprites",
+                    "isNextStepLoad": true,
+                    "src": "sprites.png"
+                }
+            ],
+            "audio": [
+                {
+                    "id": "demo-audio",
+                    "src":"demo-audio.mp3"
+                }
+            ]
+        }
+    }
+}
